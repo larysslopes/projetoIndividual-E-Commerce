@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgba(15, 15, 15, 0.74);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+
+}
+
+header {
+    background-color: rgb(236, 235, 209);
+    display: flex;
+    
+}
+
+header img {
+
+    margin-left: 30px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;   
+}
+
+ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.pesquisa input {
+    width: 70%;
+    padding: 0px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+.pesquisa {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    gap: 5%
+}
+
+.pesquisa img {
+    max-width: 30px;
+}
+
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.menu-sec ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #03989E;
+}
+
+
+
+.container {
+    width: 640px;
+    height: 360px;
+    background-color: rosybrown;
+    overflow: hidden;
+}
+
+.slider img {
+    border-top: 1px solid rgba(15, 15, 15, 0.74) ;
+ 
+}
+
+.container .slider {
+    width:  500%;
+    animation-name: animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+.container .slider img {
+    width: 19,9%;
+}
+
+@keyframes animation {
+    
+}
+
+
