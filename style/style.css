@@ -73,34 +73,42 @@ a {
     background-color: #03989E;
 }
 
-
-
-.container {
-    width: 640px;
-    height: 360px;
-    background-color: rosybrown;
-    overflow: hidden;
-}
-
 .slider img {
+    max-width: 100%;
     border-top: 1px solid rgba(15, 15, 15, 0.74) ;
  
 }
 
-.container .slider {
-    width:  500%;
-    animation-name: animation;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
 
+h2 {
+    margin-top: 30px;
 }
 
-.container .slider img {
-    width: 19,9%;
+.destaques,
+.melhoresAvaliadas {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
 }
 
-@keyframes animation {
-    
+.destaques img {
+    max-width: 210px;
+    margin: 10px;
+    border: 1px solid;
 }
 
+.melhoresAvaliadas img {
+    max-width: 210px;
+    margin: 10px;
+    border: 1px solid;
+}
 
+footer {
+    background-color: #03989E;
+    padding: 50px;
+    text-align: center;
+}
+
+footer a {
+    margin: 10px
+}
