@@ -118,3 +118,43 @@ footer {
 footer a {
     margin: 10px
 }
+
+
+.quemSomos h1 {
+    text-align: left;
+    margin: 20px;
+}
+
+.quemSomos p {
+    margin: 40px;
+}
+
+.quemSomos form {
+    width: 50%;
+    align-items: center;
+}
+
+.quemSomos label {
+    text-align: right;
+    display: block;
+    justify-content: center;
+
+}
+
+.quemSomos form input {
+    margin: 10px;
+    padding: 5px;
+}
+
+.quemSomos form textarea {
+    margin: 10px;
+}
+
+form button {
+    margin: 10px;
+    background-color: rgba(15, 15, 15, 0.74);
+    color:white;
+    padding: 10px;
+    display: block;
+    text-align: right;
+}
