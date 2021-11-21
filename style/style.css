@@ -121,7 +121,7 @@ footer a {
 
 
 .quemSomos h1 {
-    text-align: left;
+    text-align: center;
     margin: 20px;
 }
 
@@ -130,7 +130,7 @@ footer a {
 }
 
 .quemSomos form {
-    width: 50%;
+    width: 60%;
     align-items: center;
 }
 
@@ -148,13 +148,14 @@ footer a {
 
 .quemSomos form textarea {
     margin: 10px;
+    padding: 5px;
 }
 
 form button {
-    margin: 10px;
     background-color: rgba(15, 15, 15, 0.74);
     color:white;
-    padding: 10px;
-    display: block;
-    text-align: right;
+    margin-left: 70%;
+    margin-top: 20px;
+    padding: 5px;
+    width: 30%;
 }
