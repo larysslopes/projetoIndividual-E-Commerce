@@ -9,6 +9,7 @@
 
 body{
     height: 100vh;
+    background-color: rgb(241, 241, 241);
 
 }
 
@@ -80,33 +81,38 @@ a {
 }
 
 
-h2 {
+h1 {
     margin-top: 30px;
+    text-align: center;
 }
 
 .destaques,
 .melhoresAvaliadas {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
 }
 
 .destaques img {
-    max-width: 210px;
-    margin: 10px;
+    max-width: 190px;
+    margin: 5px;
     border: 1px solid;
 }
 
 .melhoresAvaliadas img {
-    max-width: 210px;
-    margin: 10px;
+    max-width: 200px;
+    margin: 5px;
     border: 1px solid;
+    align-items: center;
 }
 
 footer {
     background-color: #03989E;
     padding: 50px;
     text-align: center;
+    width: 100%;
+    margin-top: 50px;
 }
 
 footer a {
