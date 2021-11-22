@@ -101,7 +101,7 @@ h1 {
 }
 
 .melhoresAvaliadas img {
-    max-width: 200px;
+    max-width: 190px;
     margin: 5px;
     border: 1px solid;
     align-items: center;
@@ -158,4 +158,40 @@ form button {
     margin-top: 20px;
     padding: 5px;
     width: 30%;
+}
+
+
+.produtos ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produtos p {
+    margin-top: 10px;
+}
+
+.produtos img {
+    max-width: 250px;
+    margin-top: 20px;;
+}
+
+.produtoDestaque div img {
+    max-width: 450px;
+}
+
+.produtoDestaque {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 40px;
+    ;
+}
+
+.comprar {
+    padding: 10px;
+    background-color: #F8E80D;
 }
