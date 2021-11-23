@@ -35,7 +35,7 @@ ul li {
     list-style: none;
 }
 
-.block {
+.menu {
     display: block;
     width: 100%;
 }
@@ -92,6 +92,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .destaques img {
@@ -195,3 +196,77 @@ form button {
     padding: 10px;
     background-color: #F8E80D;
 }
+
+
+@media  only screen and (max-width: 1024px) {
+    
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        display: block;
+    }
+
+    header div img {
+        max-width: 30%;
+    }
+
+    header nav ul li {
+        font-size: 60%;
+    }
+
+    
+    .pesquisa input {
+        width: 50%;
+}
+
+    .pesquisa {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        gap: 3%
+}
+
+    .pesquisa img {
+        max-width: 20px;
+}
+    
+    .menu-sec {
+        font-size: 50%;
+    }
+
+    .destaques img {
+        max-width: 100px;
+    }
+
+    .melhoresAvaliadas img {
+        max-width: 100px;
+    }
+
+    .produtos img {
+        max-width: 100px;
+    }
+
+    .produtos p {
+        font-size: 60%;
+    }
+
+    .produtoDestaque div img {
+        max-width: 180px;
+    }
+
+    .produtoDestaque div h1 {
+        font-size: 100%;
+    }
+
+    .produtoDestaque div p {
+        font-size: 80%;
+    }
+
+    .comprar {
+        padding: 5px;
+    }
+}
+
