@@ -43,10 +43,19 @@ ul li {
 .pesquisa input {
     width: 70%;
     padding: 0px 5px;
-    border: 1px solid gray;
-    border-radius: 5px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
 }
 
+.pesquisa button {
+    margin-left: -65px;
+    padding: 0px 10px;
+    background-color: #F8E80D;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    cursor: pointer;
+}
 
 .pesquisa {
     margin: 0 auto;
@@ -64,6 +73,14 @@ ul li {
 a {
     text-decoration: none;
     cursor: pointer;
+}
+
+.menu a:hover {
+    color: #03989E
+}
+
+.menu-sec a:hover  {
+    color:#F8E80D 
 }
 
 
@@ -101,11 +118,19 @@ h1 {
     border: 1px solid;
 }
 
+.destaques a:hover {
+    opacity: 0.5;
+}
+
 .melhoresAvaliadas img {
     max-width: 190px;
     margin: 5px;
     border: 1px solid;
     align-items: center;
+}
+
+.melhoresAvaliadas a:hover {
+    opacity: 0.5;
 }
 
 footer {
@@ -179,6 +204,10 @@ form button {
     margin-top: 20px;;
 }
 
+.produtos a:hover {
+    opacity: 0.5;
+}
+
 .produtoDestaque div img {
     max-width: 450px;
 }
@@ -222,6 +251,10 @@ form button {
         width: 50%;
 }
 
+    .pesquisa button {
+        margin-left: -40px;
+    }
+
     .pesquisa {
         padding: 10px;
         width: 100%;
@@ -263,6 +296,10 @@ form button {
 
     .produtoDestaque div p {
         font-size: 80%;
+    }
+
+    .produtoDestaque {
+        justify-content: center;
     }
 
     .comprar {
