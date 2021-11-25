@@ -49,7 +49,7 @@ ul li {
 }
 
 .pesquisa button {
-    margin-left: -65px;
+    margin-left: -40px;
     padding: 0px 10px;
     background-color: #F8E80D;
     border-radius: 0px 5px 5px 0px;
@@ -61,18 +61,21 @@ ul li {
     margin: 0 auto;
     width: 100%;
     display: flex;
-    gap: 5%
+    gap: 1%
 }
 
 .pesquisa img {
     max-width: 30px;
 }
 
-
-
 a {
     text-decoration: none;
     cursor: pointer;
+}
+
+footer a:hover {
+    color:#fc2251
+
 }
 
 .menu a:hover {
@@ -91,12 +94,56 @@ a {
     background-color: #03989E;
 }
 
+.menu-sec li {
+    margin: 0px 10px;
+}
+
 .slider img {
     max-width: 100%;
     border-top: 1px solid rgba(15, 15, 15, 0.74) ;
  
 }
 
+.card ul a img{
+    border-radius: 20px;
+    max-width: 250px;
+    margin: 40px;
+}
+
+.card ul li {
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 20px
+}
+
+.card ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
 
 h1 {
     margin-top: 30px;
@@ -114,8 +161,8 @@ h1 {
 
 .destaques img {
     max-width: 190px;
-    margin: 5px;
-    border: 1px solid;
+    margin: 20px;
+    border-radius: 50%;
 }
 
 .destaques a:hover {
@@ -124,13 +171,18 @@ h1 {
 
 .melhoresAvaliadas img {
     max-width: 190px;
-    margin: 5px;
-    border: 1px solid;
+    margin: 20px;
+    border-radius: 50%;
     align-items: center;
 }
 
 .melhoresAvaliadas a:hover {
     opacity: 0.5;
+}
+
+.card,
+.secaoDestaques {
+    margin-top: 60px;
 }
 
 footer {
@@ -221,9 +273,28 @@ form button {
     ;
 }
 
+.parcelamento {
+    font-size: 70%;;
+}
+
 .comprar {
     padding: 10px;
     background-color: #F8E80D;
+    border-radius: 10px;
+    color: black;
+}
+
+.addCarrinho {
+    padding: 10px;
+    background-color: #03989E;
+    border-radius: 10px;
+    color: black;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color:rgba(15, 15, 15, 0.74);
+    color: white;
 }
 
 
@@ -238,12 +309,13 @@ form button {
         display: block;
     }
 
-    header div img {
+    header div a img {
         max-width: 30%;
     }
 
+
     header nav ul li {
-        font-size: 60%;
+        font-size: 70%;
     }
 
     
@@ -252,14 +324,14 @@ form button {
 }
 
     .pesquisa button {
-        margin-left: -40px;
+        margin-left: -32px;
     }
 
     .pesquisa {
         padding: 10px;
         width: 100%;
         display: flex;
-        gap: 3%
+        gap: 1%
 }
 
     .pesquisa img {
@@ -267,7 +339,16 @@ form button {
 }
     
     .menu-sec {
-        font-size: 50%;
+        font-size: 65%;
+    }
+
+    .menu-sec li {
+        margin: auto;
+    }
+
+    .card ul a img {
+        max-width: 150px;
+        margin: 15px;
     }
 
     .destaques img {
@@ -305,5 +386,7 @@ form button {
     .comprar {
         padding: 5px;
     }
+    .addCarrinho {
+        padding: 5px;
 }
 
