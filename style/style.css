@@ -14,7 +14,7 @@ body{
 }
 
 header {
-    background-color: rgb(236, 235, 209);
+    background-color: rgb(238, 237, 213);
     display: flex;
     
 }
@@ -167,6 +167,7 @@ h1 {
 
 .destaques a:hover {
     opacity: 0.5;
+    transform: scale(1.2);
 }
 
 .melhoresAvaliadas img {
@@ -178,6 +179,7 @@ h1 {
 
 .melhoresAvaliadas a:hover {
     opacity: 0.5;
+    transform: scale(1.2);
 }
 
 .card,
@@ -253,7 +255,8 @@ form button {
 
 .produtos img {
     max-width: 250px;
-    margin-top: 20px;;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 
 .produtos a:hover {
@@ -262,6 +265,7 @@ form button {
 
 .produtoDestaque div img {
     max-width: 450px;
+    border-radius: 15px;
 }
 
 .produtoDestaque {
@@ -282,6 +286,7 @@ form button {
     background-color: #F8E80D;
     border-radius: 10px;
     color: black;
+    border: none;
 }
 
 .addCarrinho {
@@ -290,6 +295,7 @@ form button {
     border-radius: 10px;
     color: black;
     margin-left: 5px;
+    border: none;   
 }
 
 button:hover {
@@ -297,9 +303,35 @@ button:hover {
     color: white;
 }
 
+.especificacoes input {
+    max-width: 80px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border: none;
+}
+
 
 @media  only screen and (max-width: 1024px) {
     
+    .pesquisa input {
+        width: 60%;
+}
+
+    .pesquisa button {
+        margin-left: -32px;
+    }
+
+    .card ul a img {
+        max-width: 220px;
+        margin: 20px;
+    }
+
+    .destaques,
+    .melhoresAvaliadas {
+        font-size: 20px;
+    }
+
+
     
 }
 
@@ -361,10 +393,11 @@ button:hover {
 
     .produtos img {
         max-width: 100px;
+        margin: 20px;
     }
 
     .produtos p {
-        font-size: 60%;
+        font-size: 70%;
     }
 
     .produtoDestaque div img {
